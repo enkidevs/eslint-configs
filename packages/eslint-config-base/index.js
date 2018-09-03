@@ -9,12 +9,10 @@ module.exports = {
   extends: [
     'airbnb-base',
     'plugin:jest/recommended',
-    'plugin:node/recommended',
     'plugin:prettier/recommended',
-    'plugin:security/recommended',
     'prettier',
   ],
-  plugins: ['import', 'jest', 'node', 'prettier', 'security'],
+  plugins: ['import', 'jest', 'prettier'],
   rules: {
     'class-methods-use-this': 'warn',
     curly: 'error',
@@ -48,6 +46,5 @@ module.exports = {
     ],
     'prettier/prettier': 'error',
     radix: ['error', 'as-needed'],
-    'security/detect-object-injection': 'off',
   },
 };

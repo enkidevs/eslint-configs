@@ -26,6 +26,8 @@
     "access": "public"
   },
   "dependencies": {
-    "@enkidevs/eslint-config-base": "^0.0.6"
+    "@enkidevs/eslint-config-base": "^0.0.6",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-security": "^1.4.0"
   }
 }

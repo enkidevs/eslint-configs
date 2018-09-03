@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['@enkidevs/eslint-config-base'],
+  extends: [
+    '@enkidevs/eslint-config-base',
+    'plugin:node/recommended',
+    'plugin:security/recommended',
+  ],
+  plugins: ['import', 'jest', 'node', 'prettier', 'security'],
   env: {
     node: true,
   },
@@ -17,5 +22,6 @@ module.exports = {
         allow: ['_id'],
       },
     ],
+    'security/detect-object-injection': 'off',
   },
 };

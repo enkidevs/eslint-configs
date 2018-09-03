@@ -2,6 +2,7 @@ module.exports = {
   parser: 'babel-eslint',
   extends: [
     '@enkidevs/eslint-config-base',
+    'airbnb',
     'plugin:duck/recommended',
     'prettier/react',
   ],
