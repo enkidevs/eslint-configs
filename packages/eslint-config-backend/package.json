@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/eslint-config-backend",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Backend Eslint Config for Enki",
   "main": "index.js",
   "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
@@ -26,6 +26,6 @@
     "access": "public"
   },
   "dependencies": {
-    "@enkidevs/eslint-config-base": "^0.0.2"
+    "@enkidevs/eslint-config-base": "^0.0.3"
   }
 }
