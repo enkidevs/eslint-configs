@@ -35,8 +35,8 @@ module.exports = {
         'redirectOnSuccess',
       ],
     ],
-    'prefer-destructuring': false,
-    'react/destructuring-assignment': false,
-    'react/forbid-prop-types': false,
+    'prefer-destructuring': 'off',
+    'react/destructuring-assignment': 'off',
+    'react/forbid-prop-types': 'off',
   },
 };
