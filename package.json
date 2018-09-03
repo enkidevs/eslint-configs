@@ -1,0 +1,27 @@
+{
+  "name": "@enkidevs/enki-eslint-configs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkidevs/eslint-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enkidevs/eslint-configs/issues"
+  },
+  "homepage": "https://github.com/enkidevs/eslint-configs#readme",
+  "keywords": [
+    "enki",
+    "eslint",
+    "config"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.2.1"
+  }
+}

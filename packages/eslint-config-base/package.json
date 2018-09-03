@@ -1,0 +1,38 @@
+{
+  "name": "@enkidevs/eslint-config-base",
+  "version": "0.0.1",
+  "description": "Base Eslint Config for Enki",
+  "main": "index.js",
+  "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkidevs/eslint-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enkidevs/eslint-configs/issues"
+  },
+  "homepage": "https://github.com/enkidevs/eslint-configs#readme",
+  "keywords": [
+    "enki",
+    "eslint",
+    "config",
+    "base"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-no-not-accumulator-reassign": "^0.1.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-security": "^1.4.0"
+  }
+}

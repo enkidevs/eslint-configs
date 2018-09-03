@@ -1,0 +1,31 @@
+{
+  "name": "@enkidevs/eslint-config-backend",
+  "version": "0.0.1",
+  "description": "Backend Eslint Config for Enki",
+  "main": "index.js",
+  "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkidevs/eslint-configs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/enkidevs/eslint-configs/issues"
+  },
+  "homepage": "https://github.com/enkidevs/eslint-configs#readme",
+  "keywords": [
+    "enki",
+    "eslint",
+    "config",
+    "backend"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 4"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@enkidevs/eslint-config-base": "0.0.1"
+  }
+}
