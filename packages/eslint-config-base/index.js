@@ -55,13 +55,6 @@ module.exports = {
     ],
     'prettier/prettier': 'error',
     radix: ['error', 'as-needed'],
-    'no-not-accumulator-reassign/no-not-accumulator-reassign': [
-      'error',
-      ['reduce'],
-      {
-        props: true,
-      },
-    ],
-    'security/detect-object-injection': false,
+    'security/detect-object-injection': 'off',
   },
 };
