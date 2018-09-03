@@ -1,6 +1,7 @@
 module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
+    sourceType: 'module',
   },
   env: {
     node: true,
@@ -11,6 +12,8 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'prettier',
+    'plugin:import/errors',
+    'plugin:import/warnings',
   ],
   plugins: ['import', 'jest', 'prettier'],
   rules: {
@@ -22,6 +25,7 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
       {

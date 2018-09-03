@@ -1,18 +1,17 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: [
-    '@enkidevs/eslint-config-base',
-    'airbnb',
-    'plugin:duck/recommended',
-    'prettier/react',
-  ],
   parserOptions: {
-    ecmaVersion: 2018,
-    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
   },
+  extends: [
+    'plugin:duck/recommended',
+    'airbnb',
+    '@enkidevs/eslint-config-base',
+    'prettier/react',
+  ],
+  plugins: ['prettier'],
   env: {
     browser: true,
   },
