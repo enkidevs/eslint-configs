@@ -14,14 +14,7 @@ module.exports = {
     'plugin:security/recommended',
     'prettier',
   ],
-  plugins: [
-    'import',
-    'jest',
-    'no-not-accumulator-reassign',
-    'node',
-    'prettier',
-    'security',
-  ],
+  plugins: ['import', 'jest', 'node', 'prettier', 'security'],
   rules: {
     'class-methods-use-this': 'warn',
     curly: 'error',
