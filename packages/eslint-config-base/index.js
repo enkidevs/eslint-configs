@@ -62,6 +62,6 @@ module.exports = {
         props: true,
       },
     ],
+    'security/detect-object-injection': false,
   },
-  'security/detect-object-injection': false,
 };
