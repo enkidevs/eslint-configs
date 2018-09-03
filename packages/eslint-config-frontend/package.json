@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/eslint-config-frontend",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Frontend Eslint Config for Enki",
   "main": "index.js",
   "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
