@@ -25,6 +25,7 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    'func-names': ['error', 'as-needed'],
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
       'error',
