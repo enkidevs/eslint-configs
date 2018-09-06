@@ -11,10 +11,18 @@ module.exports = {
   },
   rules: {
     'node/no-missing-require': 'warn',
-    'node/no-unsupported-features': [
+    'node/no-unsupported-features/es-syntax': [
       'error',
       {
-        version: '8.10.0',
+        version: '>=8.10.0',
+        ignores: [],
+      },
+    ],
+    'node/no-unsupported-features/es-builtins': [
+      'error',
+      {
+        version: '>=8.10.0',
+        ignores: [],
       },
     ],
     'no-underscore-dangle': [
