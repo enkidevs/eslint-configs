@@ -8,8 +8,6 @@ module.exports = {
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'prettier',
-    'plugin:import/errors',
-    'plugin:import/warnings',
   ],
   plugins: ['import', 'jest', 'prettier'],
   rules: {

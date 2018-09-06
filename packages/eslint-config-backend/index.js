@@ -4,7 +4,7 @@ module.exports = {
     'plugin:node/recommended',
     'plugin:security/recommended',
   ],
-  plugins: ['import', 'jest', 'node', 'prettier', 'security'],
+  plugins: ['node', 'security'],
   env: {
     node: true,
   },
