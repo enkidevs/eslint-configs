@@ -4,10 +4,11 @@ module.exports = {
     'jest/globals': true,
   },
   extends: [
-    'airbnb-base',
     'plugin:jest/recommended',
     'plugin:prettier/recommended',
     'prettier',
+    'plugin:import/warnings',
+    'plugin:import/errors',
   ],
   plugins: ['import', 'jest', 'prettier'],
   rules: {

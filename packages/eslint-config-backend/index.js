@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    'airbnb-base',
     '@enkidevs/eslint-config-base',
     'plugin:node/recommended',
     'plugin:security/recommended',
