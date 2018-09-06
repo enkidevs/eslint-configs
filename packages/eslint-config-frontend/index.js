@@ -6,10 +6,10 @@ module.exports = {
     },
   },
   extends: [
-    'plugin:duck/recommended',
     'airbnb',
     '@enkidevs/eslint-config-base',
     'prettier/react',
+    'plugin:duck/recommended',
   ],
   plugins: ['prettier'],
   env: {
