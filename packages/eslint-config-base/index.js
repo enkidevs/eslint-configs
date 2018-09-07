@@ -38,10 +38,33 @@ module.exports = {
       },
     ],
     'no-param-reassign': 'warn',
+    'one-var': [
+      'error',
+      {
+        initialized: 'never',
+        uninitialized: 'always',
+      },
+    ],
     'prefer-arrow-callback': [
       'error',
       {
         allowNamedFunctions: true,
+      },
+    ],
+    'prefer-destructuring': [
+      'error',
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true,
+        },
+        AssignmentExpression: {
+          array: false,
+          object: true,
+        },
+      },
+      {
+        enforceForRenamedProperties: false,
       },
     ],
     'prettier/prettier': 'error',
