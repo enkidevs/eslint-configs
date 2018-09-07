@@ -38,13 +38,7 @@ module.exports = {
       },
     ],
     'no-param-reassign': 'warn',
-    'one-var': [
-      'error',
-      {
-        initialized: 'never',
-        uninitialized: 'always',
-      },
-    ],
+    'one-var': ['error', 'never'],
     'prefer-arrow-callback': [
       'error',
       {
