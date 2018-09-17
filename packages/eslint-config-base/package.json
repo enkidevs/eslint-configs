@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/eslint-config-base",
-  "version": "0.0.13",
+  "version": "0.1.0",
   "description": "Base Eslint Config for Enki",
   "main": "index.js",
   "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
