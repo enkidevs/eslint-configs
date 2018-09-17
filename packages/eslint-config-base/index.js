@@ -9,8 +9,9 @@ module.exports = {
     'prettier',
     'plugin:import/warnings',
     'plugin:import/errors',
+    'plugin:promise/recommended'
   ],
-  plugins: ['import', 'jest', 'prettier'],
+  plugins: ['import', 'jest', 'prettier', 'promise'],
   rules: {
     'class-methods-use-this': 'warn',
     curly: 'error',
