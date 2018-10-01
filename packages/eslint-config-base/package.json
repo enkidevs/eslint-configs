@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/eslint-config-base",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Base Eslint Config for Enki",
   "main": "index.js",
   "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
@@ -31,5 +31,6 @@
     "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-promise": "^4.0.1"
-  }
+  },
+  "gitHead": "3c3193e20e2b2d3f067c78601c1dc498b4efcbb4"
 }
