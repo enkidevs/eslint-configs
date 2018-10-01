@@ -14,7 +14,7 @@ module.exports = {
   plugins: ['import', 'jest', 'prettier', 'promise'],
   rules: {
     'class-methods-use-this': 'warn',
-    'max-params': ["error", 3],
+    'max-params': ['error', 3],
     curly: 'error',
     'no-restricted-syntax': [
       'error',
