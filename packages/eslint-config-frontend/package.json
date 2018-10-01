@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/eslint-config-frontend",
-  "version": "0.1.1",
+  "version": "0.2.3",
   "description": "Frontend Eslint Config for Enki",
   "main": "index.js",
   "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
@@ -26,10 +26,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@enkidevs/eslint-config-base": "^0.1.1",
+    "@enkidevs/eslint-config-base": "^0.2.4",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-duck": "^0.5.6",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.10.0"
-  }
+  },
+  "gitHead": "3c3193e20e2b2d3f067c78601c1dc498b4efcbb4"
 }
