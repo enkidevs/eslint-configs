@@ -19,10 +19,32 @@
     "config"
   ],
   "scripts": {
+    "check-branch": "enkidevs-assert-restricted-branch",
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,jsx}": [
+        "npm run check-branch",
+        "npm run format",
+        "npm run lint",
+        "git add"
+      ]
+    }
+  },
   "devDependencies": {
-    "lerna": "^3.2.1"
+    "@enkidevs/assert-restricted-branch": "^1.0.2",
+    "husky": "^1.1.3",
+    "lerna": "^3.2.1",
+    "lint-staged": "^8.0.4"
   }
 }
