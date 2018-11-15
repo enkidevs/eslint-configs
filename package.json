@@ -22,7 +22,7 @@
     "check-branch": "enkidevs-assert-restricted-branch",
     "format": "prettier --write 'packages/**/*.js'",
     "lint": "eslint . --ignore-path .gitignore",
-    "lint:ci": "CI=true eslint . --ignore-path .gitignore --quiet",
+    "lint:ci": "eslint . --ignore-path .gitignore --quiet",
     "bootstrap": "lerna bootstrap",
     "publish": "lerna publish"
   },
