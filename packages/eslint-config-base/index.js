@@ -9,7 +9,7 @@ module.exports = {
     'prettier',
     'plugin:import/warnings',
     'plugin:import/errors',
-    'plugin:promise/recommended'
+    'plugin:promise/recommended',
   ],
   plugins: ['import', 'jest', 'prettier', 'promise'],
   rules: {
