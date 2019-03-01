@@ -45,9 +45,9 @@
     "@enkidevs/assert-restricted-branch": "^1.0.2",
     "@enkidevs/eslint-config-backend": "^0.2.3",
     "eslint": "^5.8.0",
-    "husky": "^1.1.3",
-    "lerna": "^3.2.1",
-    "lint-staged": "^8.0.4",
+    "husky": "^1.3.1",
+    "lerna": "^3.13.1",
+    "lint-staged": "^8.1.4",
     "prettier": "^1.14.3"
   }
 }

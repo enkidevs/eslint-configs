@@ -20,7 +20,8 @@
     "base"
   ],
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">=4",
+    "prettier": ">=1"
   },
   "publishConfig": {
     "access": "public"
