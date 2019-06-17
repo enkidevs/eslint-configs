@@ -20,7 +20,7 @@
     "base"
   ],
   "peerDependencies": {
-    "eslint": ">=4",
+    "eslint": ">= 5",
     "prettier": ">=1.13.0"
   },
   "publishConfig": {

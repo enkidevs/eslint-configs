@@ -20,7 +20,7 @@
     "frontend"
   ],
   "peerDependencies": {
-    "eslint": ">= 4"
+    "eslint": ">= 5"
   },
   "publishConfig": {
     "access": "public"
