@@ -14,14 +14,7 @@ module.exports = {
   plugins: ['import', 'jest', 'prettier', 'promise'],
   rules: {
     'class-methods-use-this': 'warn',
-    'max-params': ['error', 3],
     curly: 'error',
-    'no-restricted-syntax': [
-      'error',
-      'ForInStatement',
-      'LabeledStatement',
-      'WithStatement',
-    ],
     'func-names': ['error', 'as-needed'],
     'import/prefer-default-export': 'off',
     'import/no-extraneous-dependencies': [
@@ -30,7 +23,14 @@ module.exports = {
         devDependencies: true,
       },
     ],
+    'max-params': ['error', 3],
     'no-await-in-loop': 'warn',
+    'no-restricted-syntax': [
+      'error',
+      'ForInStatement',
+      'LabeledStatement',
+      'WithStatement',
+    ],
     'no-use-before-define': [
       'error',
       {
@@ -65,5 +65,6 @@ module.exports = {
     ],
     'prettier/prettier': 'error',
     radix: ['error', 'as-needed'],
+    strict: ['error', 'never'],
   },
 };
