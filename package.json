@@ -32,14 +32,12 @@
     }
   },
   "lint-staged": {
-    "linters": {
-      "*.{js,jsx}": [
-        "npm run check-branch",
-        "npm run format",
-        "npm run lint",
-        "git add"
-      ]
-    }
+    "*.{js}": [
+      "npm run check-branch",
+      "npm run format",
+      "npm run lint",
+      "git add"
+    ]
   },
   "devDependencies": {
     "@enkidevs/assert-restricted-branch": "^1.0.2",
