@@ -47,7 +47,7 @@
     "eslint": "^5.8.0",
     "husky": "^2.4.1",
     "lerna": "^3.13.1",
-    "lint-staged": "^8.2.1",
+    "lint-staged": "^9.1.0",
     "prettier": "^1.14.3"
   }
 }
