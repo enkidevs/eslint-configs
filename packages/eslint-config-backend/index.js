@@ -14,14 +14,14 @@ module.exports = {
     'node/no-unsupported-features/es-syntax': [
       'error',
       {
-        version: '>=8.10.0',
+        version: '>=10.0.0',
         ignores: [],
       },
     ],
     'node/no-unsupported-features/es-builtins': [
       'error',
       {
-        version: '>=8.10.0',
+        version: '>=10.0.0',
         ignores: [],
       },
     ],
