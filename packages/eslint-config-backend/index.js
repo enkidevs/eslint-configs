@@ -1,3 +1,5 @@
+const NODE_VERSION = process.version.slice(1); // skip v in vX.Y.Z
+
 module.exports = {
   extends: [
     'airbnb-base',
@@ -14,14 +16,14 @@ module.exports = {
     'node/no-unsupported-features/es-syntax': [
       'error',
       {
-        version: '>=10.0.0',
+        version: NODE_VERSION ? `>=${NODE_VERSION}` : '>=10.0.0',
         ignores: [],
       },
     ],
     'node/no-unsupported-features/es-builtins': [
       'error',
       {
-        version: '>=10.0.0',
+        version: NODE_VERSION ? `>=${NODE_VERSION}` : '>=10.0.0',
         ignores: [],
       },
     ],
