@@ -28,7 +28,7 @@
   "dependencies": {
     "@enkidevs/eslint-config-base": "^3.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-security": "^1.4.0"
   }
 }
