@@ -1,4 +1,4 @@
-const NODE_VERSION = process.version.slice(1); // skip v in vX.Y.Z
+const NODE_VERSION = process.version.slice(1); // skip v in vA.B.C
 
 module.exports = {
   extends: [
