@@ -12,6 +12,7 @@ module.exports = {
     node: true,
   },
   rules: {
+    'max-classes-per-file': 'off',
     'node/no-missing-require': 'warn',
     'node/no-unsupported-features/es-syntax': [
       'error',
