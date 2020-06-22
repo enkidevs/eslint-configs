@@ -23,7 +23,7 @@ module.exports = {
         devDependencies: true,
       },
     ],
-    'max-params': ['error', 3],
+    'max-params': ['error', 4],
     'no-await-in-loop': 'warn',
     'no-restricted-syntax': [
       'error',
