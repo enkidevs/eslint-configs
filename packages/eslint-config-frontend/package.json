@@ -1,6 +1,6 @@
 {
   "name": "@enkidevs/eslint-config-frontend",
-  "version": "8.4.0",
+  "version": "8.5.0",
   "description": "Frontend Eslint Config for Enki",
   "main": "index.js",
   "author": "Nemanja Stojanovic <nemanjacoder@gmail.com>",
@@ -26,7 +26,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@enkidevs/eslint-config-base": "^8.3.1",
+    "@enkidevs/eslint-config-base": "^8.4.0",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-duck": "^0.5.6",
     "eslint-plugin-jsx-a11y": "^6.2.1",
