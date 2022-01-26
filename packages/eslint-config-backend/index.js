@@ -17,14 +17,14 @@ module.exports = {
     'node/no-unsupported-features/es-syntax': [
       'error',
       {
-        version: NODE_VERSION ? `>=${NODE_VERSION}` : '>=12.16.2',
+        version: NODE_VERSION ? `>=${NODE_VERSION}` : '>=16.13.2',
         ignores: [],
       },
     ],
     'node/no-unsupported-features/es-builtins': [
       'error',
       {
-        version: NODE_VERSION ? `>=${NODE_VERSION}` : '>=12.16.2',
+        version: NODE_VERSION ? `>=${NODE_VERSION}` : '>=16.13.2',
         ignores: [],
       },
     ],
