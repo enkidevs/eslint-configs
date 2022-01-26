@@ -24,7 +24,7 @@
     "lint": "eslint . --ignore-path .gitignore",
     "lint:ci": "eslint . --ignore-path .gitignore --quiet",
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish"
+    "publish-packages": "lerna publish"
   },
   "husky": {
     "hooks": {
