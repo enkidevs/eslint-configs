@@ -27,10 +27,10 @@
   },
   "dependencies": {
     "@enkidevs/eslint-config-base": "^8.5.0",
-    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-duck": "^0.5.6",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-react": "^7.12.4"
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.28.0"
   },
   "gitHead": "3c3193e20e2b2d3f067c78601c1dc498b4efcbb4"
 }
