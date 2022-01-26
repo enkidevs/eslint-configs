@@ -26,19 +26,6 @@
     "bootstrap": "lerna bootstrap",
     "publish-packages": "lerna publish"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js}": [
-      "npm run check-branch",
-      "npm run format",
-      "npm run lint",
-      "git add"
-    ]
-  },
   "devDependencies": {
     "@enkidevs/assert-restricted-branch": "^1.0.2",
     "@enkidevs/eslint-config-backend": "^0.2.3",
