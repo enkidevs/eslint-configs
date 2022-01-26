@@ -27,11 +27,11 @@
     "access": "public"
   },
   "dependencies": {
-    "eslint-config-prettier": "^8.1.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jest": "^24.0.2",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-promise": "^4.0.1"
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.0.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0"
   },
   "gitHead": "3c3193e20e2b2d3f067c78601c1dc498b4efcbb4"
 }
