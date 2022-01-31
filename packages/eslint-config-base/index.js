@@ -1,7 +1,6 @@
 module.exports = {
   env: {
     node: true,
-    'jest/globals': true,
   },
   extends: [
     'plugin:jest/recommended',
@@ -31,6 +30,7 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    'no-unused-vars': 'error',
     'no-use-before-define': [
       'error',
       {
