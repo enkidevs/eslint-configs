@@ -31,7 +31,7 @@
     "@enkidevs/assert-restricted-branch": "^1.0.2",
     "@enkidevs/eslint-config-backend": "^10.0.0",
     "eslint": "^7.32.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "jest": "^27.4.7",
     "lerna": "^4.0.0",
     "prettier": "^2.5.1"
